@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quotes</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- start section -->
+    <section id="home" class="home py-5 text-capitaliza">
+      <div class="container text-center py-5">
+        <h1 class="display-1 fw-bolder">Quote Of The Day</h1>
+        <p class="py-4 fs-3 fw-madium" id="basd">
+          Press the button below to recieve a random quote!
+        </p>
+        <button
+          class="btn btn-primary btn-lg text-capitaliza py-3 px-3 border-0 rounded-5"
+          onclick="getQuote()"
+        >
+          new quote
+        </button>
+        <p id="quote" class="fs-4 py-3 fw-madium"></p>
+        <p id="auther" class="fs-3 fw-madium"></p>
+      </div>
+    </section>
+    <!-- end section -->
+
+    <!-- quotes [
+{“Be yourself; everyone else is already taken.”
+    ― Oscar Wilde}
+{“Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.”
+― Albert Einstein}
+{“You know you're in love when you can't fall asleep because reality is finally better than your dreams.”
+― Dr. Seuss}
+{“You've gotta dance like there's nobody watching,
+Love like you'll never be hurt,
+Sing like there's nobody listening,”
+― William W. Purkey}
+{“Be the change that you wish to see in the world.”
+― Mahatma Gandhi}
+{“I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.”
+― Marilyn Monroe}
+{A person does not stop loving when he is hurt , He just stops showing his feelings..!
+-Ayesha Osama}
+{}
+]
+ -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
